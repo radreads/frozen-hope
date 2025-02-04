@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frozen Hope
+
+A patient advocacy campaign to raise the standard of care for frozen eggs and embryos in the US.
+
+## About
+
+Founded by Lindsay Beck, Frozen Hope is dedicated to improving the standards and practices around cryopreservation of eggs and embryos in fertility care.
+
+## Technology Stack
+
+- Next.js 14
+- React
+- Tailwind CSS
+- TypeScript
+
+## Design System
+
+- Primary Color (Coral): #FF7F6F
+- Secondary Color (Lime): #C7F069
+- Background (Cream): #FAF7F4
+- Typography: 
+  - Headings: Freight Display Pro
+  - Body: System font stack
+
+## Features
+
+- Responsive design with mobile-first approach
+- Interactive navigation with mobile menu
+- Newsletter integration with Substack
+- Patient story submission system
+- Educational resources
+- FAQ system
+
+## Project Structure
+
+```
+src/
+├── app/
+│   ├── page.tsx            # Home page
+│   ├── learn/
+│   │   └── page.tsx       # Learning resources
+│   ├── ask/
+│   │   └── page.tsx       # FAQ section
+│   ├── share/
+│   │   └── page.tsx       # Story submission
+│   └── layout.tsx         # Root layout
+├── components/
+│   ├── navigation/
+│   │   ├── Navbar.tsx
+│   │   └── Footer.tsx
+└── styles/
+    └── globals.css
+```
 
 ## Getting Started
 
-First, run the development server:
-
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/frozen-hope.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+cd frozen-hope
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000)
 
-## Learn More
+## Git Commands for Updating
 
-To learn more about Next.js, take a look at the following resources:
+To update your repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Add all changes
+git add .
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Commit changes
+git commit -m "Update design system and implement new color scheme"
 
-## Deploy on Vercel
+# Push to main branch
+git push origin main
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## External Links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Blog: [https://frozenhope.substack.com/](https://frozenhope.substack.com/)
