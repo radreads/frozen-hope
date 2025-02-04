@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div>
@@ -12,8 +10,8 @@ export default function Home() {
               <span className="text-[#FF7F6F] underline">put you first</span>
             </h1>
             <p className="text-xl text-gray-600 mb-12">
-              Whether you want to preserve your fertility or you're looking to build 
-              your family, we've got you.
+              Whether you want to preserve your fertility or you&apos;re looking to build 
+              your family, we&apos;ve got you.
             </p>
             <button className="bg-[#C7F069] text-gray-900 px-8 py-4 rounded-full text-lg hover:bg-opacity-90 transition-colors">
               Our Story →
