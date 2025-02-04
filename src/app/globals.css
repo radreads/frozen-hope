@@ -2,20 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --color-coral: #FF7F6F;
+    --color-cream: #FAF7F4;
+    --color-dark: #333333;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-dark);
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.serif-heading {
+  font-family: 'Freight Display Pro', Georgia, serif;
 }
